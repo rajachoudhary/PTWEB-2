@@ -1,0 +1,15 @@
+#container{
+    display: flex;
+    gap: 3rem;
+    font-size: 23px;
+    background-color: blue;
+    padding: 7px;
+    justify-content: center;
+    
+}
+#container>div{
+    color: white;
+}
+#fivePoints{
+
+}
