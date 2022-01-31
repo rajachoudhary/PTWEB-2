@@ -1,0 +1,42 @@
+{
+    "posts": 
+      [
+        {
+            "book": "Harry Potter",
+            "author": "JK Rowling",
+            "comments": ["Nice Book", "Epic Story"],
+            "id": 1
+        },
+        {
+           "book": "Vahana Masterclass",
+            "author": "Alfredo Covelli",
+            "comments": ["Nice ", "Epic Story"],
+            "id": 2
+        },
+        {
+           "book": "Right Under Our Nose",
+            "author": "R. Giridharan",
+            "comments": ["Awesome Book", "Epic Story"],
+            "id": 3
+        },
+        {
+           "book": "The Little Book of Encouragement",
+            "author": "Dalai Lama",
+            "comments": ["Excellent", "Epic Story"],
+            "id": 4
+        },
+        {
+           "book": "Beautiful Things’ A Memoir",
+            "author": "Hunter Biden",
+            "comments": ["Amazing", "Epic Story"],
+            "id": 5
+        },
+        {
+           "book": "My Experiments with Silence",
+            "author": "Samir Soni",
+            "comments": ["Lovely Story", "Epic Story"],
+            "id": 6
+        }
+    ]
+   
+  }
