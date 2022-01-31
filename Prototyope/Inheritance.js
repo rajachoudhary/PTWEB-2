@@ -29,4 +29,3 @@ son.prototype = grandParents
 
 var s= new son()
 
-console.log(s)
