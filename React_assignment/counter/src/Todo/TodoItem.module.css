@@ -1,0 +1,20 @@
+.container{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+.container > input{
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.container>button{
+   font-size: 25px;
+   padding: 5px 20px;
+   border-radius: 10px;
+   border: 1px solid silver;
+   margin-left: 30px;
+}
