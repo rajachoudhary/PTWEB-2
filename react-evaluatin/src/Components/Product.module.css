@@ -1,0 +1,30 @@
+.container{
+    /* width: 400px; */
+    margin: auto;
+    text-align: center;
+   
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    margin: .5rem;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+}
+.button{
+    margin: 20px;
+}
+.listContainer{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.listContainer> div{
+    padding: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1, 
+      "title": "Carrot",
+      "cost":20,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5vB2uvs9Sk_X5gT_WOrjqH8RKbpN_PHyDg&usqp=CAU",
+      "category": "Vegetables" 
+    },
+    {
+      "id": 2, 
+      "title": "Banana",
+      "cost":40,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTz71610q8dJJJI4-b9s84L_0s4MAIMkxjPw&usqp=CAU",
+      "category": "Fruits" 
+    },
+    {
+      "id": 3, 
+      "title": "Grapes",
+      "cost":60,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5vB2uvs9Sk_X5gT_WOrjqH8RKbpN_PHyDg&usqp=CAU",
+      "category": "Fruits" 
+    },
+    {
+      "id": 4, 
+      "title": "Pumpkin",
+      "cost":20,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5vB2uvs9Sk_X5gT_WOrjqH8RKbpN_PHyDg&usqp=CAU",
+      "category": "Vegetables" 
+    },
+    {
+      "id": 5, 
+      "title": " Green Chilli",
+      "cost":30,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvuOUdKAB1OVSAX2vrr_FIQKEAbxYgpESk7Q&usqp=CAU",
+      "category": "Vegetables" 
+    },
+    {
+      "id": 6, 
+      "title": "Potato",
+      "cost":40,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmwpFbky5uN-ila9CHuMzwj1u6YH7UVW8XLQ&usqp=CAU",
+      "category": "Vegetables" 
+    },
+    {
+      "id": 7, 
+      "title": "Watermelon",
+      "cost":60,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-AwysEjyt3jody_EjInWKIIvdLW5r4JwR6w&usqp=CAU",
+      "category": "Fruits" 
+    }
+  ]
+}
