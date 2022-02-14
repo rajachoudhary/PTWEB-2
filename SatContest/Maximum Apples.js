@@ -10,7 +10,8 @@ function runProgram(input){
     let count1 = 0
     for (let i = 0; i < N; i++) {
         let count = 0
-        
+       
+
        
         
         if(W > arr[i]){
