@@ -1,0 +1,17 @@
+.formContainer {
+  width: 300px;
+  /* border: 1px solid black; */
+  margin: auto;
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 20px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.formContainer > button {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
