@@ -1,0 +1,29 @@
+.womens{
+    display: flex;
+    gap:3rem;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.womens>div{
+    border: 1px solid rgb(95, 89, 89);
+    margin: 0;
+    height: 320px;
+}
+.womens > div >img {
+    height: 250px;
+    width:250px;
+}
+.womens > div >h2{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 0;
+    color: white;
+}
+.womens > div >h3{
+    background-color: rgb(24, 27, 209);
+    padding: 5px;
+    margin: 0;
+    color: white;
+    
+}

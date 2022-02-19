@@ -1,0 +1,99 @@
+{
+    "Mens":[
+        {
+            "id":1,
+            "category":"Straight leg jeans",
+            "type":"Jeans",
+            "Size":34,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIs-ysZ5pQWhiWbugn37ozvt07xQvJp4D_DA&usqp=CAU",
+            "price":" Rs 2500.00"
+        },
+        {
+            "id":2,
+            "category":"Skinny jeans ",
+            "type":"Jeans",
+            "Size":32,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQUQi04csEbEzhxSEpTQt2vd5rF3zgXrxBA&usqp=CAU",
+            "price":" Rs 2200.00"
+        },
+        {
+            "id":3,
+            "category":"Tapered jeans",
+            "type":"Jeans",
+            "Size":24,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5ZqKaP-uSGN0nF7rUB7qGli-XfcHCvHlgg&usqp=CAU",
+            "price":" Rs 2000.00"
+        },
+        {
+            "id":4,
+            "category":"Boot Cut Jeans ",
+            "type":"Jeans",
+            "Size":40,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnUZiHMot4aRoykAyzSEN1Wadl_doeXtdRnQ&usqp=CAU",
+            "price":" Rs 1500.00"
+        }
+    ],
+    
+    "Womens":[
+        {
+            "id":5,
+            "category":"Phulkari sari",
+            "type":"Sari",
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTotrVZDPe6cA82RRqm3m6QTq37Qw1TBefr9A&usqp=CAU",
+            "price":" Rs 3000.00"
+        },
+        {
+            "id":6,
+            "category":"Jamdani sari. ",
+            "type":"Sari",
+            "Size":32,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCG_tWyc78yfKZs08vMwj36WSlf0SGGIpe_A&usqp=CAU",
+            "price":" Rs 4500.00"
+        },
+        {
+            "id":7,
+            "category":"Kanjeevaram silk sari",
+            "type":"Sari",
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpW1mNt4Vvb-7MSX1MW8oeDSGwky4CLCoigppjzERHpUnkwpjvGOzqs5BVVKMBo_nDcns&usqp=CAU",
+            "price":" Rs 2500.00"
+        },
+        {
+            "id":8,
+            "category":"Kasavu sari",
+            "type":"Sari",   
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAuiPdpMXmSjHuPQsHV-2C6zW-lw5LiSQVDA&usqp=CAU",
+            "price":" Rs 2800.00"
+        }
+    ],
+    "children":[
+        {
+            "id":9,
+            "category":" T-shirt",
+            "type":"T-shirt",
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNF6v1VxQV8ica5n60qK4cj6UfFuPrNU_7hg&usqp=CAU",
+            "price":" Rs 1000.00"
+        },
+        {
+            "id":10,
+            "category":"Paint",
+            "type":"Paint",
+            "url":"https://4.imimg.com/data4/WS/CE/MY-10820286/printed-half-pant-250x250.jpg",
+            "price":" Rs 500.00"
+        },
+        {
+            "id":11,
+            "category":"Shirt",
+            "type":"Shirt",
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHNdnSwQcMrODwWYtOsAAtExmzqFYdNgtwEA&usqp=CAU",
+            "price":" Rs 700.00"
+        },
+        {
+            "id":12,
+            "category":"Jeans",
+            "type":"Jeans",   
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXP5uAhQXjx3VyblcFgaFpyvwFsw83DC4x5KayNTMnE0hblzmawIkeL5cj9TCCCDTs2mc&usqp=CAU",
+            "price":" Rs 900.00"
+        }
+    ]
+
+}
