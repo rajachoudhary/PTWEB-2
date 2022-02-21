@@ -1,9 +1,15 @@
-import { useEffect } from "react"
+import { createContext, createRef, useEffect } from "react"
 import { useState } from "react"
 import style from "../CSS/Mens.module.css"
 
-export const Mens = ()=>{
+
+export const Mens = ({buyNow})=>{
   const [data,setData] = useState([])
+  // const [buy,setBuyNow] = useState([])
+  const handleBuy = (item)=>{
+    buyNow(prev => [...prev,{...item,qty:1},])
+  }
+  
   const getData = ()=>{
     fetch("http://localhost:3000/Mens")
     .then(r => r.json())
@@ -26,7 +32,7 @@ export const Mens = ()=>{
               <img src={item.url} alt="image" />
               <h3>{item.type}</h3>
               <div>{item.price}</div>
-              <button>Buy Now</button>
+              <button onClick={()=>handleBuy(item)}>Buy Now</button>
             </div>
             
           )

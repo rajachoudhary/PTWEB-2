@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const Cart = () => {
+export const Cart = ({buy,buyNow}) => {
+  console.log(buy);
   return (
     <div>
         

@@ -4,6 +4,7 @@ import style from "../CSS/Children.module.css"
 
 export const Children = ()=>{
   const [data,setData] = useState([])
+
   const getData = ()=>{
     fetch("http://localhost:3000/Children")
     .then(r => r.json())
@@ -25,7 +26,7 @@ export const Children = ()=>{
               <img src={item.url} alt="image" />
               <h3>{item.type}</h3>
               <div>{item.price}</div>
-              <button>Buy Now</button>
+              <button >Buy Now</button>
             </div>
             
           )

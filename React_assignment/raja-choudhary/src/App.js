@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { AboutUs } from "./Pages/AboutUs";
@@ -11,18 +12,19 @@ import { Womens } from "./Pages/Womens";
 
 
 export default function App() {
+  const [buy, buyNow] = useState([])
   return (
     <div className="App">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/mens" element={<Mens/>}/>
+        <Route path="/mens" element={<Mens buyNow={buyNow} buy={buy}/>}/>
         <Route path="/womens" element={<Womens/>}/>
         <Route path="/children" element={<Children/>}/>
         <Route path="/faq" element={<Faq/>}/>
         <Route path="/contactus" element={<ContactUs/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
-        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/cart" element={<Cart buyNow={buyNow} buy={buy}/>}/>
       </Routes>
     </div>
   );
