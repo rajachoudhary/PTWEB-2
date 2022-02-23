@@ -11,11 +11,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/products/*" element={<Products/>}>
-          <Route path=":id" element={<ProductDetail/>}/>
-        </Route>
+        <Route path="products" element={<Products/>}/>
+        <Route path="products/:id" element={<ProductDetail/>}/>
       </Routes>
-      {/* <Outlet/> */}
     </div>
   );
 }

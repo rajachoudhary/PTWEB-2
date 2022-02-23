@@ -1,26 +1,26 @@
 {
-    "Products": [
+    "products": [
         {
             "name": "SmartPhone",
-            "price": 30,
+            "price": 3000,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIthHtmVLEXgJgtEscRSFH9rJiL_g29Kk76g&usqp=CAU",
             "id": 0
         },
         {
             "name": "Watch",
-            "price": 20,
+            "price": 2000,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfCXMdUmy_G0P3bVKItgsJZFZqxKKKbdCcsQ&usqp=CAU",
             "id": 1
         },
         {
             "name": "Shirt",
-            "price": 50,
+            "price": 500,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH4FO7FQU4FApYYd7_EbipIxSNFeRBz2FAJA&usqp=CAU",
             "id": 2
         },
         {
             "name": "Pants",
-            "price": 100,
+            "price": 1000,
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0cpVjBPLiS3MAhrMFDlD2AqAG0fGdXCzNg&usqp=CAU",
             "id": 3
         }
