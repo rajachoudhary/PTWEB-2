@@ -7,6 +7,7 @@ export const ContextProvider = ({ children }) => {
   const [form, setForm] = useState(false);
   const handleAuth = () => {
     setForm(true);
+    
   };
   return (
     <AuthContext.Provider
