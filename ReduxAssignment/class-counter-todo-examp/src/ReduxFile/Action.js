@@ -1,4 +1,4 @@
-import { ADD_TODO, DELETE_TODO } from "./ActionType";
+import { ADD_TODO, DELETE_TODO, USER_LOGIN, USER_LOGOUT } from "./ActionType";
 import {v4} from "uuid"
 export const AddTodo = (value)=>({
     type:ADD_TODO,
@@ -10,4 +10,11 @@ export const AddTodo = (value)=>({
 export const DeleteTodo = (todosId)=>({
     type:DELETE_TODO,
     payload:todosId
+})
+
+export const login = ()=> ({
+    type:USER_LOGIN
+})
+export const logout = ()=> ({
+    type:USER_LOGOUT
 })

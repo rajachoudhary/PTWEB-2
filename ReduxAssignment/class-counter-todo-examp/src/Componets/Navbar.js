@@ -1,13 +1,21 @@
-import React, { useEffect } from "react";
-import {NavLink} from 'react-router-dom'
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {Link} from 'react-router-dom';
+import { login, logout } from "../ReduxFile/Action";
 export const Navbar = () => {
-  const [isUserLogedIn, setIsUserLogedIn] = useEffect(false);
+    const dispatch = useDispatch()
+  
+  const isuserLogin = useSelector((state)=> state.auth.isuserLogin)
+  console.log(isuserLogin);
   return (
-    <div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-      {isUserLogedIn ? <button>Logout</button> : <button>Login</button>}
+    <div style={{display:"flex", fontSize:"20px",gap:"2rem"}}>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
+      <div>
+          
+      {isuserLogin ? (<button onClick={()=>dispatch(logout())}>Logout</button>) : (<button onClick={()=>dispatch(login())}>Login</button>)}
+      </div>
     </div>
   );
 };

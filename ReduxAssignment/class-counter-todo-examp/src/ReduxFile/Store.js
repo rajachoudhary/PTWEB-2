@@ -3,5 +3,10 @@ import { Reducer } from "./Reducer";
 
 export const Store = createStore(Reducer,{
     count:5,
-    todos:[]
+    todos:[],
+    auth:{
+        isuserLogin:false,
+        tokenId:""
+    },
+   
 }) 
