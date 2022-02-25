@@ -1,7 +1,7 @@
-import { DECREMENT, INCREMENT } from "./ActionType"
+import { ADD_TODO, DECREMENT, DELETE_TODO, INCREMENT } from "./ActionType"
 
-export const Reducer = (state,{type})=>{
-    console.log(type)
+export const Reducer = (state,{type,payload})=>{
+   
     switch (type) {
         case INCREMENT:{
             return {...state,count:state.count+1}
@@ -9,6 +9,14 @@ export const Reducer = (state,{type})=>{
         }
         case DECREMENT:{
             return {...state,count:state.count-1}
+
+        }
+        case ADD_TODO:{
+            return {...state,todos:[...state.todos,payload]}
+
+        }
+        case DELETE_TODO:{
+            return {...state,todos:state.todos.filter((todo)=>todo.id !== payload)}
 
         }
     
