@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import { DeleteTodo } from '../ReduxFile/Action';
+import { DeleteTodo } from '../ReduxFile/todos/todos.action';
+
 
 export const TodoList = ({todo}) => {
    

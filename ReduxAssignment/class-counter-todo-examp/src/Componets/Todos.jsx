@@ -5,7 +5,8 @@ import { TodoInput } from './TodoInput'
 import { TodoList } from './TodoList'
 
 export const Todos = () => {
-    const todos  = useSelector((state)=>state.todos) 
+    const todos  = useSelector((state)=>state.todos.data) 
+    console.log(todos);
   
   return (
     <div>

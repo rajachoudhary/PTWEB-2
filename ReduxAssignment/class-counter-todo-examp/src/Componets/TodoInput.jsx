@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { AddTodo } from '../ReduxFile/Action'
+import { AddTodo } from '../ReduxFile/todos/todos.action'
+
 
 export const TodoInput = () => {
     const [value,setValue] = useState("")
